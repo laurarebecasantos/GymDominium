@@ -1,1 +1,1 @@
-# BodyAcademia
+# GymDominium
