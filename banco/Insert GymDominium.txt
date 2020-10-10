@@ -1,0 +1,17 @@
+USE gymdominium;
+
+insert into funcionario (nome, telefone, cpf, sexo, email, senha, cargo)
+values
+('Carla Amorim'    , '81988886934' ,  '02156235988' , '1' , 'carla.gymd1@gmail.com' , '2568215' ,  'Recepcionista'),
+('Zuleide Costa'   , '81986225469' ,  '66536982411' , '1' , 'zuleide.gymd2@gmail.com' , '3268997' ,  'Recepcionista'),
+('Ariadne Golveia' , '81925638547' ,  '55696325428' , '1' , 'ariadne.gymd3@gmail.com' , '6523561' ,  'Personal'),
+('César Amorim'    , '81936526589' ,  '33022565223' , '0' , 'cesara.gymd4@gmail.com' , '1524495' ,  'Personal'),
+('Emanuel Rocha'   , '81985496253' ,  '70980544625' , '0' , 'emanuel.gym5@gmail.com' , '9521445' ,  'Personal');
+
+insert into cliente (nome, rua, bairro, cidade, uf, telefone, cpf, sexo, data_nasc)
+values
+('Laura Santos' , 'Rua da matriz' , 'Pontezinha' , 'Cabo de Santo Agostinho' , 'PE' , '81988526310' , '06275395126' , '1' , '1985-10-25'),
+('Emanuel Santos' , 'Rua do Colegio' , 'Curcurana' , 'Jaboatão dos Guararapes' , 'PE' , '81993624222' , '32595762433' , '0' , '1979-07-09');
+
+
+
